@@ -17,7 +17,7 @@
 
 <body>
 
-<header class="container-fluid navbar1">
+<header class="container-fluid navbar1 bg-black">
 
 	<div class="row navbar align-items-center">
 		<!--LOGO-->
@@ -32,7 +32,7 @@
 			<div class="menu-btn_burger toggle"></div>
 		</div>
 
-		<div class="col-12 d-lg-none">
+		<div class="col-12 d-lg-none bg-black">
 			<div class="row text-center mx-auto nav">
 				<div class="col-12 p-3"><a href="index.html" class="nav_text1 nav_current">NYHEDER</a></div>
 				<div class="col-12 p-3"><a href="index.html" class="nav_text1">LOGIN</a></div>
@@ -65,7 +65,25 @@
 
 	</div>
 </div>
+<script>
+	const toggle = document.querySelector('.toggle');
+	const nav = document.querySelector('.nav');
+	toggle.addEventListener('click', () => nav.classList.toggle('show'));
+</script>
 
+<script>
+	const menuBtn = document.querySelector('.menu-btn');
+	let menuOpen = false;
+	menuBtn.addEventListener('click', () =>{
+		if (!menuOpen){
+			menuBtn.classList.add('open');
+			menuOpen = true;
+		}   else{
+			menuBtn.classList.remove('open');
+			menuOpen = false;
+		}
+	});
+</script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
