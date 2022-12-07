@@ -37,15 +37,15 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 80px;
-	height: 80px;
+	width: 70px;
+	height: 70px;
 	cursor: pointer;
 	transition: all .5s ease-in-out;
 }
 
 
 .menu-btn_burger{
-	width: 50px;
+	width: 45px;
 	height: 6px;
 	background: #fff;
 	transition: all .5s ease-in-out;
@@ -54,7 +54,7 @@ img {
 .menu-btn_burger::after{
 	content: "";
 	position: absolute;
-	width: 50px;
+	width: 45px;
 	height: 6px;
 	background: #fff;
 	transition: all .5s ease-in-out;
@@ -90,6 +90,19 @@ img {
 	max-height: 100vh;
 }
 
+.logo{
+	font-size: 2.5rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.nav-items{
+	color: white;
+	font-size: 1.6rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
 
 .navbar{
 	height: 10vh;
@@ -116,4 +129,10 @@ img {
 		height: 90vh;
 	}
 
+}
+
+@media screen and (max-width: 425px){
+	.logo{
+		font-size: 1.7rem;
+	}
 }
