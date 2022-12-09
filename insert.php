@@ -82,7 +82,7 @@ if(!empty($_POST["data"])){
 </div>
 
 <form method="post" action="insert.php" enctype="multipart/form-data">
-    <div class="row text-white m-0">
+    <div class="row text-white m-md-5">
 
         <div class="col-12 col-md-6 p-5">
             <div class="form-group">

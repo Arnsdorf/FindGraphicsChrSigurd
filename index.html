@@ -17,7 +17,7 @@
 </head>
 
 
-<body>
+<body style="background-color: #353758">
 
 <header class="header bg-black text-white">
 	<div class="d-flex justify-content-between align-items-center mx-4 ">
@@ -83,6 +83,43 @@
 
 
 
+<!----------Start på designer udvalget------------>
+<div class="container">
+	<div class="text-white">
+		<h1 class="text-center mmdKunde_overskrift mt-5 pt-5">Find din multimediedesigner</h1>
+	</div>
+	<div class="designers">
+		<div class="filter text-white p-4">
+			<div class="row d-flex justify-content-evenly align-items-center">
+				<div class="col-md-4 pt-5 px-xl-5 pb-2">
+					<input type="search" class="shadow form-control nameSearch form__field" placeholder="">
+				</div>
+				<div class="custom-select mt-3 col-md-4" style="width:200px; font-family: montserrat, sans-serif;">
+					<label for="mmdKundeTag1 mmdKundeTag2 mmdKundeTag3"></label>
+					<select class="genreSearch p-2">
+						<option value=""></option>
+						<option value="Animator">Animator</option>
+						<option value="Webudvikler">Webudvikler</option>
+						<option value="Grafiker">Grafiker</option>
+						<option value="Fotograf">Fotograf</option>
+						<option value="SoMe Ansvarlig">SoMe Ansvarlig</option>
+						<option value="Editor">Editor</option>
+						<option value="Motion-Design">Motion-Design</option>
+						<option value="Content">Content</option>
+						<option value="Front-End Kodning">Front-End Kodning</option>
+						<option value="Back-End Kodning">Back-End Kodning</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="Ydre_boks p-4 mt-5 mb-5">
+			<div class="items">
+
+			</div>
+		</div>
+	</div>
+</div>
+
 
 
 <script>
@@ -106,5 +143,11 @@
 </script>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module">
+	import Designers from "./js/designers.js";
+
+	const designers = new Designers();
+	designers.init();
+</script>
 </body>
 </html>

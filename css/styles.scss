@@ -4,6 +4,7 @@
 
 body {
 	margin: 0;
+	font-family: montserrat, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +31,20 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+input{
+	border-radius: 500px!important;
+}
+
+select{
+	border-radius: 500px!important;
+}
+option{
+	border-radius: 500px!important;
+}
+option:hover {
+	background-color:#666!important;
 }
 
 .menu-btn{
@@ -90,6 +105,54 @@ img {
 	max-height: 100vh;
 }
 
+.kort_title{
+	top: 260px;
+	position: absolute;
+	font-size: 2rem;
+	font-family: montserrat, sans-serif;
+	font-weight: bold;
+}
+.kort_undertitle{
+	top: 250px;
+	position: absolute;
+	font-size: 1.5rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.designers .items .card-img-top{
+	height: 426px;
+	object-fit: cover;
+}
+.card-content{
+	background: linear-gradient(
+	hsl(0 0% 0% / 0),
+	hsl(20 0% 0% / 0.3) 70%,
+	hsl(0 0% 0% / 1)
+	);
+}
+
+.Ydre_boks{
+	background-color: #2B2B2B;
+	border-radius: 20px;
+}
+
+input{
+	border-radius: 41px;
+}
+
+.image{
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+	border: none;
+}
+
+.image:hover{
+	transform: scale(1.04);
+	z-index: 100;
+	border: none;
+}
+
 .logo{
 	font-size: 2.5rem;
 	font-family: montserrat, sans-serif;
@@ -104,9 +167,6 @@ img {
 	font-style: normal;
 }
 
-.navbar{
-	height: 10vh;
-}
 .rightfront{
 	height: 90vh;
 	background-color: #595775 ;
@@ -165,4 +225,8 @@ img {
 	.logo{
 		font-size: 1.7rem;
 	}
+	.mmdKunde_overskrift{
+		font-size: 1.7rem;
+	}
 }
+
