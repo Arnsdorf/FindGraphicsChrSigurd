@@ -40,6 +40,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
     <meta name="copyright" content="Information om copyright">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/ykt2zah.css">
@@ -73,8 +74,9 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
 </header>
 
 <div class="container">
-    <div class="row d-flex justify-content-evenly align-items-center">
-        <div class="col-md-5 p-4 mx-3 mx-md-5 mt-5 mb-5 col-lg-5 col-xl-4 Ydre_boks1">
+    <div class="row d-flex justify-content-evenly align-items-center m-3">
+        <!-- Billed og video delen   -->
+        <div class="col-md-5 p-4 mx-3 mx-md-5 mt-5 mb-5 col-lg-6 col-xl-4 Ydre_boks1 ">
             <div class="">
                 <div class="text-white text-center">
                     <?php
@@ -102,24 +104,73 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
                 </div>
             </div>
         </div>
-        <!-- Ydre Boks -->
-        <div class="col-md-5 col-lg-3 col-xl-3">
+        <!-- Info delen -->
+        <div class="col-md-5 col-lg-4 col-xl-4 p-0">
             <div class="row">
-                <div class="text-white text-center">
-                    <h1 class="mmdKunde_overskrift">
+                <div class="text-white mt-5">
+                    <h1 class="mmdKunde_overskrift text-center">
                         <?php
 
                         echo $mmdkunde->mmdKundeNavn;
+
                         echo $mmdkunde->mmdKundeEfternavn;
 
                         ?>
                     </h1>
-                    <h2>
+                    <h2 class="mmdKunde_overskrift1 text-center">
                         <?php
 
                         echo $mmdkunde->mmdKundeTitel;
                         ?>
                     </h2>
+                    <div class="Ydre_boks1 text-white bio p-4 pb-2 pt-2 mt-5">
+                        <p>
+                            <?php
+
+                            echo $mmdkunde->mmdKundeBio;
+                            ?>
+                        </p>
+                    </div>
+                    <div class="mmdKunde_overskrift1 text-center mt-5">
+                        <h3>
+                            Kontaktinformationer
+                        </h3>
+                    </div>
+                    <div class="Ydre_boks1 bio p-4 pb-2 pt-3 mt-3 mb-5">
+                        <p>
+                            Du kan altid kontakte
+                            <?php
+
+                            echo $mmdkunde->mmdKundeNavn;
+                            ?>, hvis du har nogle spørgsmål, eller hvis
+                            du har en speciel opgave.
+                        </p>
+                        <div class="d-flex align-items-center justify-content-center pt-2">
+                            <a class="text-decoration-none text-white" href="tel:+45<?php echo $mmdkunde->mmdKundeTLF;?>">
+                                <i class="bi bi-telephone" style="font-size: 1.8rem"></i>
+                                + 45
+                                <?php
+
+                                echo $mmdkunde->mmdKundeTLF;
+                                ?>
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center p-1">
+                            <a class="text-decoration-none text-white" href="mailto:<?php echo $mmdkunde->mmdKundeEmail;?>">
+                                <i class="bi bi-envelope-at" style="font-size: 1.8rem"></i>
+
+                                <?php
+
+                                echo $mmdkunde->mmdKundeEmail;
+                                ?>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="button mx-auto text-center shadow d-flex justify-content-center align-items-center mb-3">
+                        <a class="text-white text-decoration-none" href="index.html#Items">
+                            <h6 class="m-0 mmdKunde_overskrift1">Tilbage</h6>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

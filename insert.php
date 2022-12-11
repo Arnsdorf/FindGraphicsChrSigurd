@@ -70,7 +70,7 @@ if(!empty($_POST["data"])){
     <link rel="stylesheet" href="https://use.typekit.net/ykt2zah.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.tiny.cloud/1/zquinc6p2731tv9vxna2i9s3dmifhibr2rw3657swz26blb4/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 
 
@@ -102,111 +102,110 @@ if(!empty($_POST["data"])){
 
 
 <div class="container text-white">
-    <h1 class="text-center m-5">OPRET DIN PROFIL</h1>
-    <p class="text-center pb-5">Opret dig som selvstændig Multimediedesigner
+    <h1 class="text-center m-5 mmdKunde_overskrift">OPRET DIN PROFIL</h1>
+    <p class="text-center pb-5 mmdKunde_overskrift1">Opret dig som selvstændig Multimediedesigner
         og bliv en del af et større fællesskab
         der respektere din virksomhed</p>
 </div>
 
 <form method="post" action="insert.php" enctype="multipart/form-data">
-    <div class="row text-white m-md-5">
+    <div style="font-size: .9rem;" class="row text-white m-md-5 m-1 d-flex d-flex justify-content-center">
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeNavn">Dit fulde navn</label>
                 <input class="form-control shadow" type="text" name="data[mmdKundeNavn]" id="mmdKundeNavn" placeholder="Indtast dit fulde navn" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeEfternavn">Efternavn</label>
                 <input class="form-control shadow" type="text" name="data[mmdKundeEfternavn]" id="mmdKundeEfternavn" placeholder="Indtast dit efternavn" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeEmail">Email</label>
                 <input class="form-control shadow" type="email" name="data[mmdKundeEmail]" id="mmdKundeEmail" placeholder="Indtast en passende email" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundePassword">Adgangskode</label>
                 <input class="form-control shadow" type="password" name="data[mmdKundePassword]" id="mmdKundePassword" placeholder="Indtast en adgangskode" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeCVR">CVR</label>
                 <input class="form-control shadow" type="text" name="data[mmdKundeCVR]" id="mmdKundeCVR" placeholder="Indtast dit CVR Nummer" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeTitel">Titel</label>
                 <input class="form-control shadow" type="text" name="data[mmdKundeTitel]" id="mmdKundeTitel" placeholder="Indtast din titel f.eks. animator." value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
-            <div class="form-group">
+        <div class="col-lg-6 col-md-8 p-5 pt-3">
+            <div class="form-group ">
                 <label class="" for="mmdKundeTLF">Telefonnummer</label>
                 <input class="form-control shadow" type="tel" name="data[mmdKundeTLF]" id="mmdKundeTLF" placeholder="Indtast dit arbejdes nummer" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 p-5 pt-3">
             <label class="form-label" for="mmdKundeBevis">Indsæt uddannelsebevis her</label>
             <input type="file" class="form-control shadow" id="mmdKundeBevis" name="mmdKundeBevis">
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 p-5 pt-3">
             <label class="form-label " for="mmdKundeProfilPic">Indsæt profilbillede her</label>
             <input type="file" class="form-control shadow" id="mmdKundeProfilPic" name="mmdKundeProfilPic">
         </div>
 
-        <div class="col-12 col-md-6 p-5">
-            <label class="form-label " for="mmdKundeVideo">Indsæt video her</label>
+        <div class="col-12 p-5 pt-3 ">
+            <label class="form-label" for="mmdKundeVideo">Indsæt video her</label>
             <input type="file" class="form-control shadow" id="mmdKundeVideo" name="mmdKundeVideo">
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeTag1">1.tag</label>
                 <input class="form-control shadow" type="tel" name="data[mmdKundeTag1]" id="mmdKundeTag1" placeholder="Indtast relevant kategori/tag" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeTag2">2.tag</label>
                 <input class="form-control shadow" type="tel" name="data[mmdKundeTag2]" id="mmdKundeTag2" placeholder="Indtast relevant kategori/tag" value="">
             </div>
         </div>
 
-        <div class="col-12 col-md-6 p-5">
+        <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeTag3">3.tag</label>
                 <input class="form-control shadow" type="tel" name="data[mmdKundeTag3]" id="mmdKundeTag3" placeholder="Indtast relevant kategori/tag" value="">
             </div>
         </div>
 
-        <div class="col-12 p-5">
+        <div class="col-12 p-5 pt-3">
             <div class="form-group">
                 <label class="" for="mmdKundeBio">Fortæl verdenen hvem du er</label>
                 <textarea class="form-control" name="data[mmdKundeBio]" id="mmdKundeBio" placeholder="Beskriv dig og dine kompetancer"></textarea>
             </div>
         </div>
 
-        <div class="col-12 col-md-6 offset-md-3 pb-3 p-5">
-            <button class="form-control submit_knap p-3 shadow" type="submit" id="btnSubmit">Opret bruger</button>
+        <div class="col-12 button d-flex mb-5 align-items-center">
+            <button class="form-control submit_knap bg-transparent text-white border-0" type="submit" id="btnSubmit">Opret bruger</button>
         </div>
-
     </div>
 
 </form>

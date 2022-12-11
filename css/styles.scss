@@ -123,20 +123,36 @@ option:hover {
 	font-family: montserrat, sans-serif;
 	font-weight: 600;
 }
+.mmdKunde_overskrift{
+	font-size: 2.7rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+}
+.mmdKunde_overskrift1{
+	font-size: 1.6rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+}
+.bio{
+	font-size: 1.2rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 400;
+}
 
 .designers .items .card-img-top{
 	height: 426px;
 	object-fit: cover;
 }
 
+
 .card-profil{
 	height: 500px;
 	width: 100%;
 	object-fit: cover;
-	border-radius: 25px;
+	border-radius: 15px;
 }
 .kunde_video{
-	border-radius: 25px;
+	border-radius: 15px;
 }
 
 .card-content{
