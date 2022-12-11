@@ -19,17 +19,19 @@
 
 <body style="background-color: #353758">
 
-<header class="header bg-black text-white">
+<header class="header bg-black text-white shadow">
 	<div class="d-flex justify-content-between align-items-center mx-4 ">
 		<div class="logo pt-4 pb-4">
-			<p>Find Graphic</p>
+			<a href="index.html" class="text-decoration-none text-white">
+				<p>Find Graphic</p>
+			</a>
 		</div>
 		<div class="col-6 d-md-none menu-btn">
 			<div class="menu-btn_burger toggle"></div>
 		</div>
 		<div class="nav-items d-none d-md-block">
 			<a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
-			<a class="p-2 text-decoration-none text-white" href="#">LOGIN</a>
+			<a class="p-2 text-decoration-none text-white" href="insert.php">LOGIN</a>
 		</div>
 	</div>
 
@@ -95,20 +97,23 @@
 					<input type="search" class="shadow form-control nameSearch form__field" placeholder="">
 				</div>
 				<div class="custom-select mt-3 col-md-4" style="width:200px; font-family: montserrat, sans-serif;">
-					<label for="mmdKundeTag1 mmdKundeTag2 mmdKundeTag3"></label>
-					<select class="genreSearch p-2">
-						<option value=""></option>
-						<option value="Animator">Animator</option>
-						<option value="Webudvikler">Webudvikler</option>
-						<option value="Grafiker">Grafiker</option>
-						<option value="Fotograf">Fotograf</option>
-						<option value="SoMe Ansvarlig">SoMe Ansvarlig</option>
-						<option value="Editor">Editor</option>
-						<option value="Motion-Design">Motion-Design</option>
-						<option value="Content">Content</option>
-						<option value="Front-End Kodning">Front-End Kodning</option>
-						<option value="Back-End Kodning">Back-End Kodning</option>
-					</select>
+					<label for="genreSearch"></label>
+					<div class="custom-select">
+						<select class="genreSearch shadow p-2">
+							<option value=""></option>
+							<option value="Animator">Animator</option>
+							<option value="Webudvikler">Webudvikler</option>
+							<option value="Grafiker">Grafiker</option>
+							<option value="Fotograf">Fotograf</option>
+							<option value="SoMe Ansvarlig">SoMe Ansvarlig</option>
+							<option value="Editor">Editor</option>
+							<option value="Motion-Design">Motion-Design</option>
+							<option value="Content">Content</option>
+							<option value="Front-End Kodning">Front-End Kodning</option>
+							<option value="Back-End Kodning">Back-End Kodning</option>
+						</select>
+						<span class="custom-arrow"></span>
+					</div>
 				</div>
 			</div>
 		</div>

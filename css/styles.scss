@@ -39,7 +39,11 @@ input{
 
 select{
 	border-radius: 500px!important;
+	font-size: 1rem;
+	border: 0;
+	padding: 1em 6em 1em 1.5em;
 }
+
 option{
 	border-radius: 500px!important;
 }
@@ -108,14 +112,14 @@ option:hover {
 .kort_title{
 	top: 260px;
 	position: absolute;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	font-family: montserrat, sans-serif;
 	font-weight: bold;
 }
 .kort_undertitle{
 	top: 250px;
 	position: absolute;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	font-family: montserrat, sans-serif;
 	font-weight: 600;
 }
@@ -124,6 +128,17 @@ option:hover {
 	height: 426px;
 	object-fit: cover;
 }
+
+.card-profil{
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+	border-radius: 25px;
+}
+.kunde_video{
+	border-radius: 25px;
+}
+
 .card-content{
 	background: linear-gradient(
 	hsl(0 0% 0% / 0),
@@ -134,6 +149,10 @@ option:hover {
 
 .Ydre_boks{
 	background-color: #2B2B2B;
+	border-radius: 20px;
+}
+.Ydre_boks1{
+	background-color: #595775;
 	border-radius: 20px;
 }
 
@@ -153,15 +172,19 @@ input{
 	border: none;
 }
 
+.items{
+	border-radius: 25px!important;
+}
+
 .logo{
-	font-size: 2.5rem;
+	font-size: 1.8rem;
 	font-family: montserrat, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 .nav-items{
 	color: white;
-	font-size: 1.6rem;
+	font-size: 1.1rem;
 	font-family: montserrat, sans-serif;
 	font-weight: 700;
 	font-style: normal;
@@ -228,5 +251,13 @@ input{
 	.mmdKunde_overskrift{
 		font-size: 1.7rem;
 	}
-}
+	.kort_title{
+		font-size: 1.5rem;
+	}
+	.kort_undertitle{
+		font-size: 1rem;
+		font-family: montserrat, sans-serif;
+		font-weight: 600;
+	}
 
+}

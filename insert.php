@@ -73,7 +73,34 @@ if(!empty($_POST["data"])){
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 
+
 <body style="background-color: #353758">
+
+<header class="header bg-black text-white shadow">
+    <div class="d-flex justify-content-between align-items-center mx-4 ">
+        <div class="logo pt-4 align-items-center pb-4">
+            <a href="index.html" class="text-decoration-none text-white">
+                <p>Find Graphic</p>
+            </a>
+        </div>
+        <div class="col-3 d-md-none menu-btn d-flex justify-content-end">
+            <div class="menu-btn_burger toggle"></div>
+        </div>
+        <div class="nav-items d-none d-md-block">
+            <a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
+            <a class="p-2 text-decoration-none text-white" href="insert.php">LOGIN</a>
+        </div>
+    </div>
+
+    <div class="col-12 d-md-none">
+        <div class="row text-center mx-auto nav nav-items">
+            <a class="col-12 p-5 text-white text-decoration-none" href="#" class="">NYHEDER</a>
+            <a class="col-12 pb-5 text-white text-decoration-none" href="#" class="">LOGIN</a>
+        </div>
+    </div>
+</header>
+
+
 <div class="container text-white">
     <h1 class="text-center m-5">OPRET DIN PROFIL</h1>
     <p class="text-center pb-5">Opret dig som selvstændig Multimediedesigner

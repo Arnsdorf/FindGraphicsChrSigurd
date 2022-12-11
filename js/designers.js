@@ -41,7 +41,7 @@ export default class Designers{
                 <div class="card image shadow">
                     <img src="uploads/${item.mmdKundeProfilPic}" class="card-img card-img-top">
                     <div class="card-img-overlay card-content">
-                        <a href="index.html?mmdKundeId=${item.mmdKundeId}" class="stretched-link"></a>
+                        <a href="mmdKundeProfil.php?mmdKundeId=${item.mmdKundeId}" class="stretched-link"></a>
                         <h4 class="card-title text-center position-relative text-white kort_title">${item.mmdKundeNavn} ${item.mmdKundeEfternavn}</h4>
                         <p class="kort_undertitle text-center text-white position-relative ">${item.mmdKundeTitel}</p>
                     </div>
