@@ -33,6 +33,10 @@ img {
 	height: auto;
 }
 
+.bg-marineblue{
+	background-color: #000211;
+}
+
 input{
 	border-radius: 500px!important;
 }
@@ -139,6 +143,18 @@ option:hover {
 	font-weight: 400;
 }
 
+.forside_overskrift{
+	font-size: 2rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+}
+
+.forside_underoverskrift{
+	font-size: 1.2rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+}
+
 .designers .items .card-img-top{
 	height: 426px;
 	object-fit: cover;
@@ -193,16 +209,16 @@ input{
 }
 
 .logo{
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-family: montserrat, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 .nav-items{
 	color: white;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	font-family: montserrat, sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	font-style: normal;
 }
 .sektion{
@@ -241,6 +257,8 @@ input{
 	width: 13rem;
 	background-color: #523ea5;
 	border-radius: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 800;
 
 }
 .button:hover{

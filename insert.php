@@ -65,6 +65,7 @@ if(!empty($_POST["data"])){
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
 
+    <link rel="tab icon" href="billeder/Tab%20logo.png">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/ykt2zah.css">
@@ -88,14 +89,14 @@ if(!empty($_POST["data"])){
         </div>
         <div class="nav-items d-none d-md-block">
             <a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
-            <a class="p-2 text-decoration-none text-white" href="insert.php">LOGIN</a>
+            <a class="p-2 text-decoration-none text-white" href="insert.php">OPRET PROFIL</a>
         </div>
     </div>
 
     <div class="col-12 d-md-none">
         <div class="row text-center mx-auto nav nav-items">
             <a class="col-12 p-5 text-white text-decoration-none" href="#" class="">NYHEDER</a>
-            <a class="col-12 pb-5 text-white text-decoration-none" href="#" class="">LOGIN</a>
+            <a class="col-12 pb-5 text-white text-decoration-none" href="#" class="">OPRET PROFIL</a>
         </div>
     </div>
 </header>

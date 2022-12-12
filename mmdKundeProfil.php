@@ -38,6 +38,8 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
     <meta name="copyright" content="Information om copyright">
+
+    <link rel="tab icon" href="billeder/Tab%20logo.png">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
