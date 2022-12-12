@@ -205,6 +205,9 @@ input{
 	font-weight: 700;
 	font-style: normal;
 }
+.sektion{
+	background-color: #E8E8E8;
+}
 
 .rightfront{
 	height: 90vh;
@@ -222,12 +225,14 @@ input{
 	height: 100%;
 }
 .rubrik{
-	font-family: "Montserrat ExtraBold";
+	font-family: montserrat, sans-serif;
+	font-weight: bold;
 	color: white;
 	padding: 10rem 0 0 0;
 }
 .brød{
-	font-family: "Montserrat Medium";
+	font-family: montserrat, sans-serif;
+	font-weight: lighter;
 	color: white;
 }
 .button{
