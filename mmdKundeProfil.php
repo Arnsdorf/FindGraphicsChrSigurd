@@ -51,7 +51,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
 
 <body style="background-color: #353758";>
 
-<header class="header bg-black text-white shadow">
+<header class="header bg-marineblue text-white shadow">
     <div class="d-flex justify-content-between align-items-center mx-4 ">
         <div class="logo pt-4 align-items-center pb-2">
             <a href="index.html" class="text-decoration-none text-white">
@@ -78,7 +78,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
 <div class="container">
     <div class="row d-flex justify-content-evenly align-items-center m-3">
         <!-- Billed og video delen   -->
-        <div class="col-md-5 p-4 mx-3 mx-md-5 mt-5 mb-5 col-lg-6 col-xl-4 Ydre_boks1 ">
+        <div class="col-md-5 p-4 mx-3 mx-md-5 mt-4 mb-5 col-lg-6 col-xl-4 Ydre_boks1 ">
             <div class="">
                 <div class="text-white text-center">
                     <?php
@@ -111,13 +111,10 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
             <div class="row">
                 <div class="text-white mt-5">
                     <h1 class="mmdKunde_overskrift text-center">
-                        <?php
+                        <?php echo $mmdkunde->mmdKundeNavn;?>
 
-                        echo $mmdkunde->mmdKundeNavn;
+                        <?php echo $mmdkunde->mmdKundeEfternavn; ?>
 
-                        echo $mmdkunde->mmdKundeEfternavn;
-
-                        ?>
                     </h1>
                     <h2 class="mmdKunde_overskrift1 text-center">
                         <?php

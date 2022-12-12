@@ -77,9 +77,9 @@ if(!empty($_POST["data"])){
 
 <body style="background-color: #353758">
 
-<header class="header bg-black text-white shadow">
+<header class="header bg-marineblue text-white shadow">
     <div class="d-flex justify-content-between align-items-center mx-4 ">
-        <div class="logo pt-4 align-items-center pb-4">
+        <div class="logo pt-3 align-items-center pb-3">
             <a href="index.html" class="text-decoration-none text-white">
                 <p>Find Graphic</p>
             </a>
