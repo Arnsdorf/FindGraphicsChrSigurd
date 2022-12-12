@@ -265,8 +265,29 @@ input{
 	transition: 400ms;
 	background-color: #751a1d;
 }
+//Dette er "nyheder" styling//
 
-
+.rubrik-n{
+	font-family: montserrat;
+	font-weight: bold;
+	color: #000000;
+	padding: 10rem 0 0 0;
+}
+.bg-nyhed{
+	background: #353758;
+	height: 100vh;
+}
+.swing{
+	margin: 10rem 0 0 0;
+	height: 60vh;
+	width: 80vw;
+	background: #212121;
+	border-radius: 10px;
+}
+.carousel{
+	position: absolute;
+	object-fit: cover;
+}
 
 @media screen and (min-width: 992px){
 
