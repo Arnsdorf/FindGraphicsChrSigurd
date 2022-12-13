@@ -167,7 +167,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
                     </div>
                     <div class="button mx-auto text-center shadow d-flex justify-content-center align-items-center mb-3">
                         <a class="text-white text-decoration-none" href="index.html#Items">
-                            <h6 class="m-0 mmdKunde_overskrift1">Tilbage</h6>
+                            <h6 class="m-0">Tilbage</h6>
                         </a>
                     </div>
                 </div>

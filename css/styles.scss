@@ -63,6 +63,11 @@ option:hover {
 	color: #453EA5;
 }
 
+.header{
+	z-index: 1;
+}
+
+
 .menu-btn{
 	position: relative;
 	display: flex;
@@ -77,7 +82,7 @@ option:hover {
 
 .menu-btn_burger{
 	width: 45px;
-	height: 6px;
+	height: 5px;
 	background: #fff;
 	transition: all .5s ease-in-out;
 }
