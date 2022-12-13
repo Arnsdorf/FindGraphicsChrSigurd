@@ -32,9 +32,9 @@
 
 <header class="header bg-marineblue text-white shadow">
 	<div class="d-flex justify-content-between align-items-center mx-4">
-		<div class="logo pt-4 pb-4">
+		<div class="logo pt-3 pb-3">
 			<a href="index.html" class="text-decoration-none text-white">
-				<p>Find Graphicz</p>
+				<p>Find Graphic</p>
 			</a>
 		</div>
 		<div class="col-6 d-md-none menu-btn d-flex justify-content-end">
@@ -42,7 +42,7 @@
 		</div>
 		<div class="nav-items d-none d-md-block">
 			<a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
-			<a class="p-2 text-decoration-none text-white" href="insert.php">LOGIN</a>
+			<a class="p-2 text-decoration-none text-white" href="insert.php">OPRET PROFIL</a>
 		</div>
 	</div>
 
@@ -54,37 +54,65 @@
 	</div>
 </header>
 <!--------------------navbar slut---------------------->
-<div class="container-fluid bg-nyhed">
-	<div class="row justify-content-center">
+<div class="container-fluid bg-nyhed shadow-lg">
+	<div class="row d-flex justify-content-center">
 
-		<div class="swing position-relative">
 
-			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active" data-bs-interval="10000">
-						<img src="..." class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item" data-bs-interval="2000">
-						<img src="..." class="d-block w-100" alt="...">
-					</div>
-					<div class="carousel-item">
-						<img src="..." class="d-block w-100" alt="...">
-					</div>
+		<h5 class="pb-3 n-rubrik shadow">Følg med i nyhederne! <span class="badge bg-purple">News</span></h5>
+
+		<div class="swing-box shadow">
+			<div class="row">
+
+				<div class="col-sm-12 col-md-8 col-xl-9 img-container position-relative mt-3 ">
+					<video class="nyhed" src="billeder/landingpageudkast3.mp4" loop muted autoplay></video>
 				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
+
+				<div class="shadow col-sm-12 col-md-4 col-xl-3 row information-card mb-4 mt-md-3 ms-3 ms-md-2">
+				</div>
+
 			</div>
 		</div>
 
 	</div>
 </div>
 
+<div class="container-fluid bg-dark-nyhed">
+	<div class="row">
+
+	</div>
+</div>
+
+
+
+
+
+<script>
+	const toggle = document.querySelector('.toggle');
+	const nav = document.querySelector('.nav');
+	toggle.addEventListener('click', () => nav.classList.toggle('show'));
+</script>
+
+<script>
+	const menuBtn = document.querySelector('.menu-btn');
+	let menuOpen = false;
+	menuBtn.addEventListener('click', () =>{
+		if (!menuOpen){
+			menuBtn.classList.add('open');
+			menuOpen = true;
+		}   else{
+			menuBtn.classList.remove('open');
+			menuOpen = false;
+		}
+	});
+</script>
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module">
+	import Designers from "./js/designers.js";
+
+	const designers = new Designers();
+	designers.init();
+</script>
 
 </body>
 </html>
