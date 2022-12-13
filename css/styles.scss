@@ -4,7 +4,6 @@
 
 body {
 	margin: 0;
-	font-family: montserrat, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -277,32 +276,34 @@ input{
 	background: #353758;
 	height: 100vh;
 }
-.swing{
-	margin: 10rem 0 0 0;
-	height: 60vh;
-	width: 80vw;
+.swing-box{
+
 	background: #212121;
-	border-radius: 10px;
+
+
 }
-.carousel{
+.img-container{
+	min-height: 20vh;
+	height: 50vh;
+}
+.nyhed{
 	position: absolute;
 	object-fit: cover;
+	width: 93%;
+	height: 97%;
+	border-radius: 5px;
 }
-
-@media screen and (min-width: 992px){
-
-	.imgcontainer{
-		min-height: 30vh;
-		height: 90vh;
-	}
-
-	.rubrik{
-
-	}
-	.brød{
-		font-size: 1.2rem;
-	}
-
+.information-card{
+	height: 13vh;
+	width: 90vw;
+	background: #6262b4;
+	border-radius: 5px;
+}
+.n-rubrik{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: white;
+	margin: 80px 0 0 0;
 }
 
 @media screen and (max-width: 425px){
@@ -325,3 +326,44 @@ input{
 	}
 
 }
+@media screen and (min-width: 768px){
+	.information-card{
+		height: 45vh;
+		width: 30vw;
+		background: #6262b4;
+		border-radius: 5px;
+	}
+	.n-rubrik{
+		font-size: 1.7rem;
+	}
+}
+@media screen and (min-width: 992px){
+
+	.imgcontainer{
+		min-height: 30vh;
+		height: 90vh;
+	}
+
+	.rubrik{
+
+	}
+	.brød{
+		font-size: 1.2rem;
+	}
+}
+@media screen and (min-width: 1440px){
+	.information-card{
+		height: 65vh;
+		width: 20vw;
+		background: #6262b4;
+		border-radius: 5px;
+	}
+	.n-rubrik{
+		font-size: 2rem;
+	}
+	.img-container{
+		min-height: 20vh;
+		height: 70vh;
+	}
+}
+
