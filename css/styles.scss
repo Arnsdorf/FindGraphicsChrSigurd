@@ -296,7 +296,7 @@ input{
 .information-card{
 	height: 13vh;
 	width: 90vw;
-	background: #6262b4;
+	background: #595775;
 	border-radius: 5px;
 }
 .n-rubrik{
@@ -304,6 +304,10 @@ input{
 	font-weight: bold;
 	color: white;
 	margin: 80px 0 0 0;
+}
+.bg-dark-nyhed{
+	background-color: #212121;
+	height: 40vh;
 }
 
 @media screen and (max-width: 425px){
@@ -330,8 +334,6 @@ input{
 	.information-card{
 		height: 45vh;
 		width: 30vw;
-		background: #6262b4;
-		border-radius: 5px;
 	}
 	.n-rubrik{
 		font-size: 1.7rem;
@@ -355,8 +357,6 @@ input{
 	.information-card{
 		height: 65vh;
 		width: 20vw;
-		background: #6262b4;
-		border-radius: 5px;
 	}
 	.n-rubrik{
 		font-size: 2rem;
@@ -367,3 +367,30 @@ input{
 	}
 }
 
+//"christian playground"//
+.videobox{
+	min-height: 50vh;
+	height: 100vh;
+}
+.video1{
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+}
+.rubrik{
+	margin: 150px 0 0 0;
+}
+.forside_overskrift{
+	font-size: 3rem;
+}
+.mmdKunde_overskrift1{
+	font-size: 1.5rem;
+}
+.forside_underoverskrift{
+	font-size: 1.3rem;
+}
+.btn-tekst{
+	font-family: Montserrat;
+	font-weight: bold;
+}
