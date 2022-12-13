@@ -212,6 +212,26 @@ if(!empty($_POST["data"])){
 </form>
 
 <script>
+    const toggle = document.querySelector('.toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle('show'));
+</script>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () =>{
+        if (!menuOpen){
+            menuBtn.classList.add('open');
+            menuOpen = true;
+        }   else{
+            menuBtn.classList.remove('open');
+            menuOpen = false;
+        }
+    });
+</script>
+
+<script>
     tinymce.init({
         selector: '#mmdKundeBio',
     });

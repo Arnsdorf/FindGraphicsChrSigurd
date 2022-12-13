@@ -20,6 +20,7 @@ ul, ol {
 
 li {
 	margin: 0;
+	font-size: 50px;
 }
 
 p {
@@ -41,6 +42,7 @@ input{
 	border-radius: 500px!important;
 }
 
+
 select{
 	border-radius: 500px!important;
 	font-size: 1rem;
@@ -53,6 +55,13 @@ option{
 }
 option:hover {
 	background-color:#666!important;
+}
+
+.text-purple{
+	color: #9B3EA5;
+}
+.text-blue{
+	color: #453EA5;
 }
 
 .menu-btn{
@@ -150,9 +159,40 @@ option:hover {
 }
 
 .forside_underoverskrift{
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	font-family: montserrat, sans-serif;
 	font-weight: 600;
+}
+
+.tag{
+	background: #FFFFFF;
+	border-radius: 500px;
+	color: black;
+	font-size: 1rem;
+	padding-right: 50px;
+	font-weight: 800;
+}
+
+.cirkle{
+	padding-right: 40px;
+	padding-left: 10px;
+	font-size: 1.2rem;
+}
+
+.tag1{
+	top: 265px;
+	position: absolute;
+	background: #FFFFFF;
+	border-radius: 500px;
+	color: black;
+	font-size: .7rem;
+	font-weight: 800;
+	width: 110px;
+}
+
+.cirkle1{
+	font-size: .7rem;
+	padding-right: 10px;
 }
 
 .designers .items .card-img-top{
@@ -251,6 +291,7 @@ input{
 	font-family: montserrat, sans-serif;
 	font-weight: lighter;
 	color: white;
+	font-size: 1.2rem;
 }
 .button{
 	height: 3rem;
@@ -296,12 +337,6 @@ input{
 		height: 90vh;
 	}
 
-	.rubrik{
-
-	}
-	.brød{
-		font-size: 1.2rem;
-	}
 
 }
 
@@ -322,6 +357,9 @@ input{
 	}
 	.forside_overskrift{
 		font-size: 1.7rem;
+	}
+	.brød{
+		font-size: 1.3rem;
 	}
 
 }
