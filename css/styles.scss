@@ -285,13 +285,6 @@ input{
 	padding: 10rem 0 0 0;
 }
 
-
-.brød{
-	font-family: montserrat, sans-serif;
-	font-weight: lighter;
-	color: white;
-	font-size: 1.2rem;
-}
 .button{
 	height: 3rem;
 	width: 13rem;
@@ -318,10 +311,7 @@ input{
 	height: 100vh;
 }
 .swing-box{
-
 	background: #212121;
-
-
 }
 .img-container{
 	min-height: 20vh;
@@ -348,7 +338,7 @@ input{
 }
 .bg-dark-nyhed{
 	background-color: #212121;
-	height: 40vh;
+	height: 70vh;
 }
 
 @media screen and (max-width: 425px){
@@ -380,7 +370,7 @@ input{
 		width: 30vw;
 	}
 	.n-rubrik{
-		font-size: 1.7rem;
+		font-size: 1.9rem;
 	}
 }
 @media screen and (min-width: 992px){
@@ -402,12 +392,12 @@ input{
 		height: 65vh;
 		width: 20vw;
 	}
-	.n-rubrik{
-		font-size: 2rem;
-	}
 	.img-container{
 		min-height: 20vh;
 		height: 70vh;
+	}
+	.n-rubrik{
+		font-size: 2.2rem;
 	}
 }
 
@@ -422,19 +412,84 @@ input{
 	width: 100%;
 	height: 100%;
 }
-.rubrik{
-	margin: 150px 0 0 0;
-}
 .forside_overskrift{
-	font-size: 3rem;
+	font-size: 1.2rem;
 }
 .mmdKunde_overskrift1{
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .forside_underoverskrift{
 	font-size: 1.3rem;
 }
+.brød{
+	font-family: montserrat, sans-serif;
+	font-weight: lighter;
+	color: white;
+	font-size: 0.7rem;
+}
 .btn-tekst{
 	font-family: Montserrat;
 	font-weight: bold;
+}
+@media screen and (min-width: 768px){
+
+	.rubrik{
+		margin: 100px 0 0 0;
+	}
+	.forside_overskrift{
+		font-size: 1.9rem;
+	}
+	.mmdKunde_overskrift1{
+		font-size: 2rem;
+	}
+	.forside_underoverskrift{
+		font-size: 1.5rem;
+	}
+	.brød{
+		font-family: montserrat, sans-serif;
+		font-weight: lighter;
+		color: white;
+		font-size: 1rem;
+	}
+
+}
+@media screen and (min-width: 1024px){
+	.rubrik{
+		margin: 100px 0 0 0;
+	}
+	.forside_overskrift{
+		font-size: 2.5rem;
+	}
+	.mmdKunde_overskrift1{
+		font-size: 2rem;
+	}
+	.forside_underoverskrift{
+		font-size: 1.4rem;
+	}
+	.brød{
+		font-family: montserrat, sans-serif;
+		font-weight: lighter;
+		color: white;
+		font-size: 1.2rem;
+	}
+}
+@media screen and (min-width: 1440px){
+	.rubrik{
+		margin: 100px 0 0 0;
+	}
+	.forside_overskrift{
+		font-size: 3rem;
+	}
+	.mmdKunde_overskrift1{
+		font-size: 2.5rem;
+	}
+	.forside_underoverskrift{
+		font-size: 1.4rem;
+	}
+	.brød{
+		font-family: montserrat, sans-serif;
+		font-weight: lighter;
+		color: white;
+		font-size: 1.4rem;
+	}
 }
