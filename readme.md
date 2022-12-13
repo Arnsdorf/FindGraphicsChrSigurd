@@ -1,3 +1,3 @@
-# Kickstarter projekt med PHP
+# Det her er et eksamens projekt
 
-Klon dette projekt og kom hurtigt i gang med dit næste projekt.
+
