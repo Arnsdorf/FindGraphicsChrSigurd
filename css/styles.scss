@@ -346,7 +346,15 @@ input{
 	background-color: #751a1d;
 }
 //Dette er "nyheder" styling//
-
+.nyhed-rubrik{
+	font-family: montserrat;
+	font-weight: bold;
+}
+.nyhed-brød{
+	font-size:0.8rem;
+	font-family: montserrat;
+	font-weight: lighter;
+}
 .rubrik-n{
 	font-family: montserrat;
 	font-weight: bold;
@@ -372,7 +380,6 @@ input{
 	border-radius: 5px;
 }
 .information-card{
-	height: 13vh;
 	width: 90vw;
 	background: #595775;
 	border-radius: 5px;
@@ -429,7 +436,6 @@ input{
 }
 @media screen and (min-width: 768px){
 	.information-card{
-		height: 45vh;
 		width: 30vw;
 	}
 	.n-rubrik{
@@ -440,6 +446,7 @@ input{
 		color: white;
 		padding: 10rem 0 0 0;
 	}
+
 }
 @media screen and (min-width: 992px){
 
@@ -450,10 +457,16 @@ input{
 	.brød{
 		font-size: 1.2rem;
 	}
+	.nyhed-rubrik{
+		font-size: 1.2rem;
+	}
+	.nyhed-brød{
+		font-size:0.9rem;
+
+	}
 }
 @media screen and (min-width: 1440px){
 	.information-card{
-		height: 65vh;
 		width: 20vw;
 	}
 	.img-container{
@@ -463,8 +476,23 @@ input{
 	.n-rubrik{
 		font-size: 2.2rem;
 	}
-}
+	.nyhed-rubrik{
+		font-size: 1.5rem;
+	}
+	.nyhed-brød{
+		font-size:1rem;
 
+	}
+}
+@media screen and (min-width: 1600px){
+	.nyhed-rubrik{
+		font-size: 1.6rem;
+	}
+	.nyhed-brød{
+		font-size:1.3rem;
+
+	}
+}
 //"christian playground"//
 .videobox{
 	min-height: 50vh;
