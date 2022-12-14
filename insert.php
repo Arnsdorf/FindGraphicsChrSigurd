@@ -41,9 +41,9 @@ if(!empty($_POST["data"])){
     $db->sql($sql, $bind, false);
 
 
-    echo "<body style='font-size: 2rem; background-color: #FBAB7E; background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);'></body> 
-        <h1 style='color: white; font-family: Poppins; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Godt svaret, skipper.🚢</h1> 
-        <a style='text-decoration: none; color: black; font-family: Poppins; display: flex; justify-content: center;' href='insert.php'>Kom med endnu et svar!</a>
+    echo "<body style='font-size: 2rem; background-color: #353758;'></body> 
+        <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Tak fordi du valgte Find G🚢</h1> 
+        <a style='text-decoration: none; color: black; font-family: montserrat, sans-serif; display: flex; justify-content: center;' href='insert.php'>Kom med endnu et svar!</a>
         ";
 
     exit;
@@ -69,13 +69,16 @@ if(!empty($_POST["data"])){
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/ykt2zah.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/ede39c7ba1.js" crossorigin="anonymous"></script>
+
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdn.tiny.cloud/1/zquinc6p2731tv9vxna2i9s3dmifhibr2rw3657swz26blb4/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 </head>
 
 
-<body style="background-color: #353758">
+<body style="background-color: #353758; ">
 
 <header class="header bg-marineblue text-white shadow">
     <div class="d-flex justify-content-between align-items-center mx-4 ">
@@ -110,7 +113,7 @@ if(!empty($_POST["data"])){
 </div>
 
 <form method="post" action="insert.php" enctype="multipart/form-data">
-    <div style="font-size: .9rem;" class="row text-white m-md-5 m-1 d-flex d-flex justify-content-center">
+    <div style="font-size: .9rem;" class="row text-white m-0 d-flex d-flex justify-content-center p-0">
 
         <div class="col-12 col-md-6 p-5 pt-3">
             <div class="form-group">
@@ -210,6 +213,8 @@ if(!empty($_POST["data"])){
     </div>
 
 </form>
+
+
 
 <script>
     const toggle = document.querySelector('.toggle');
