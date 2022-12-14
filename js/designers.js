@@ -49,7 +49,7 @@ export default class Designers{
                             <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-purple cirkle1"></i></span>${item.mmdKundeTag3}</span>
                        </div>
                         
-                        <div class="d-flex justify-content-evenly">
+                        <div class="d-flex justify-content-between">
                             <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-blue cirkle1"></i></span>${item.mmdKundeTag1}</span>
                             <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-success pe-auto cirkle1"></i></span>${item.mmdKundeTag2}</span>
                         </div>

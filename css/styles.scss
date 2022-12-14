@@ -418,19 +418,19 @@ input{
 	height: 100%;
 }
 .forside_overskrift{
-	font-size: 1.2rem;
+	font-size: 1.8rem;
 }
 .mmdKunde_overskrift1{
 	font-size: 2rem;
 }
 .forside_underoverskrift{
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 }
 .brød{
 	font-family: montserrat, sans-serif;
 	font-weight: lighter;
 	color: white;
-	font-size: 0.7rem;
+	font-size: 1rem;
 }
 .btn-tekst{
 	font-family: Montserrat;
@@ -442,34 +442,13 @@ input{
 		margin: 100px 0 0 0;
 	}
 	.forside_overskrift{
-		font-size: 1.9rem;
+		font-size: 2.1rem;
 	}
 	.mmdKunde_overskrift1{
-		font-size: 2rem;
+		font-size: 2.2rem;
 	}
 	.forside_underoverskrift{
-		font-size: 1.5rem;
-	}
-	.brød{
-		font-family: montserrat, sans-serif;
-		font-weight: lighter;
-		color: white;
-		font-size: 1rem;
-	}
-
-}
-@media screen and (min-width: 1024px){
-	.rubrik{
-		margin: 100px 0 0 0;
-	}
-	.forside_overskrift{
-		font-size: 2.5rem;
-	}
-	.mmdKunde_overskrift1{
-		font-size: 2rem;
-	}
-	.forside_underoverskrift{
-		font-size: 1.4rem;
+		font-size: 1.7rem;
 	}
 	.brød{
 		font-family: montserrat, sans-serif;
@@ -477,24 +456,6 @@ input{
 		color: white;
 		font-size: 1.2rem;
 	}
+
 }
-@media screen and (min-width: 1440px){
-	.rubrik{
-		margin: 100px 0 0 0;
-	}
-	.forside_overskrift{
-		font-size: 3rem;
-	}
-	.mmdKunde_overskrift1{
-		font-size: 2.5rem;
-	}
-	.forside_underoverskrift{
-		font-size: 1.4rem;
-	}
-	.brød{
-		font-family: montserrat, sans-serif;
-		font-weight: lighter;
-		color: white;
-		font-size: 1.4rem;
-	}
-}
+
