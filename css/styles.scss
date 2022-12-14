@@ -287,7 +287,7 @@ input{
 .rubrik{
 	font-family: montserrat, sans-serif;
 	color: white;
-	padding: 10rem 0 0 0;
+	padding: 3rem 0 0 0;
 }
 
 .button{
@@ -377,16 +377,17 @@ input{
 	.n-rubrik{
 		font-size: 1.9rem;
 	}
+	.rubrik{
+		font-family: montserrat, sans-serif;
+		color: white;
+		padding: 10rem 0 0 0;
+	}
 }
 @media screen and (min-width: 992px){
 
 	.imgcontainer{
 		min-height: 30vh;
 		height: 90vh;
-	}
-
-	.rubrik{
-
 	}
 	.brød{
 		font-size: 1.2rem;
