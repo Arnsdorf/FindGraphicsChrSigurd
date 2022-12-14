@@ -343,9 +343,25 @@ input{
 }
 .bg-dark-nyhed{
 	background-color: #212121;
-	height: 70vh;
-}
 
+}
+.rubrik-card{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: white;
+	font-size: 1.3rem;
+}
+.rubrik-card-small{
+	font-family: Montserrat;
+	font-weight: bold;
+	color: white;
+	font-size: 1rem;
+}
+.n-bg-bio{
+	background: #595775;
+	height: 15vh;
+	border-radius: 20px;
+}
 @media screen and (max-width: 425px){
 	.logo{
 		font-size: 1.7rem;
