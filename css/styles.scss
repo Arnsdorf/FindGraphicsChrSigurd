@@ -330,6 +330,17 @@ input{
 	font-weight: 600;
 	cursor: pointer;
 }
+
+.button1{
+	height: 3rem;
+	width: 13rem;
+	background-color: white;
+	border-radius: 100px;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+	cursor: pointer;
+}
+
 .button:hover{
 	transition: 400ms;
 	background-color: #751a1d;

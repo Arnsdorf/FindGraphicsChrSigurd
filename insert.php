@@ -42,8 +42,8 @@ if(!empty($_POST["data"])){
 
 
     echo "<body style='font-size: 2rem; background-color: #353758;'></body> 
-        <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Tak fordi du valgte Find G🚢</h1> 
-        <a style='text-decoration: none; color: black; font-family: montserrat, sans-serif; display: flex; justify-content: center;' href='insert.php'>Kom med endnu et svar!</a>
+        <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Tak fordi du valgte Find Graphics</h1> 
+        <a style='text-decoration: underline; color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; font-weight: bold;' href='index.html'> Gå tilbage</a>
         ";
 
     exit;
@@ -207,12 +207,52 @@ if(!empty($_POST["data"])){
             </div>
         </div>
 
-        <div class="col-12 button d-flex mb-5 align-items-center">
-            <button class="form-control submit_knap bg-transparent text-white border-0" type="submit" id="btnSubmit">Opret bruger</button>
+        <div class="col-12 button d-flex mb-5 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button class="submit_knap bg-transparent text-white border-0">Opret bruger</button>
         </div>
     </div>
-
+    <button class="form-control button border-0 text-white shadow" type="submit" id="btnSubmit">Ja tak</button>
 </form>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h4 class="modal-title text-center" id="staticBackdropLabel">Terms & Conditions</h4>
+            </div>
+            <div class="modal-body">
+                <h5 class="forside_underoverskrift">1. Succes</h5>
+                <p class="mb-3">I tilfældet af "ekstrem succes" acceptere
+                    du til at Find Graphics firmaet må tage en 99% del af alt din income.
+                </p>
+                <h5 class="forside_underoverskrift">2. Læs ikke dette</h5>
+                <p class="mb-3">Hvis du acceptere vores betingelser siger
+                    du ja til ikke at have læst terms &
+                    conditions dokumentet. Yderligere siger
+                    du også ja til at din førstefødte bliver
+                    permanent ofret til "højre magter".
+                </p>
+                <h5 class="forside_underoverskrift">3. Stol på os</h5>
+                <p class="mb-3">
+                    Hvis du acceptere vores betingelser acceptere
+                    du også chancen for det vi kalder "den permanente søvn"
+                    som bliver anvendt og eller udøvet på arbejder
+                    der bliver bedømt til at være "ineffektive"
+                    og eller "et problem".
+                </p>
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+                <div class="col-12 button d-flex mb-5 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <button class="submit_knap bg-transparent text-white border-0">Opret bruger</button>
+                </div>
+                <button type="button" class="button1 shadow" data-bs-dismiss="modal">Nej tak</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!----------Start på footer------------>
 <div class="footer container-fluid d-none d-md-block box-shadow justify-content-evenly">
@@ -277,6 +317,8 @@ if(!empty($_POST["data"])){
         }
     });
 </script>
+
+
 
 <script>
     tinymce.init({
