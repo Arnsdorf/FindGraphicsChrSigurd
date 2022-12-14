@@ -42,16 +42,16 @@ export default class Designers{
                     <img src="uploads/${item.mmdKundeProfilPic}" class="card-img card-img-top">
                     <div class="card-img-overlay card-content">
                         <a href="mmdKundeProfil.php?mmdKundeId=${item.mmdKundeId}" class="stretched-link"></a>
-                        <h4 class="card-title text-center position-relative text-white kort_title">${item.mmdKundeNavn} ${item.mmdKundeEfternavn}</h4>
-                        <p class="kort_undertitle text-center text-white position-relative ">${item.mmdKundeTitel}</p>
+                        <h4 class="card-title text-center position-relative text-white kort_title1">${item.mmdKundeNavn} ${item.mmdKundeEfternavn}</h4>
+                        <p class="kort_undertitle1 text-center text-white position-relative ">${item.mmdKundeTitel}</p>
                         
                        <div class="d-flex justify-content-evenly">
-                            <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-purple cirkle1"></i></span>${item.mmdKundeTag3}</span>
+                            <span class="text-dark pt-1 pb-1 m-1 tag2 position-relative text-center"></i><span><i class="bi bi-circle-fill text-purple cirkle1"></i></span>${item.mmdKundeTag3}</span>
                        </div>
                         
                         <div class="d-flex justify-content-between">
-                            <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-blue cirkle1"></i></span>${item.mmdKundeTag1}</span>
-                            <span class="text-dark pt-1 pb-1 m-1 tag1 position-relative text-center"></i><span><i class="bi bi-circle-fill text-success pe-auto cirkle1"></i></span>${item.mmdKundeTag2}</span>
+                            <span class="text-dark pt-1 pb-1 m-1 tag2 position-relative text-center"></i><span><i class="bi bi-circle-fill text-blue cirkle1"></i></span>${item.mmdKundeTag1}</span>
+                            <span class="text-dark pt-1 pb-1 m-1 tag2 position-relative text-center"></i><span><i class="bi bi-circle-fill text-success pe-auto cirkle1"></i></span>${item.mmdKundeTag2}</span>
                         </div>
                     </div>
                 </div>

@@ -133,6 +133,16 @@ option:hover {
 	font-family: montserrat, sans-serif;
 	font-weight: bold;
 }
+
+.kort_title1{
+	top: 260px;
+	position: absolute;
+	font-size: 1.6rem;
+	font-family: montserrat, sans-serif;
+	font-weight: bold;
+}
+
+
 .kort_undertitle{
 	top: 250px;
 	position: absolute;
@@ -140,6 +150,15 @@ option:hover {
 	font-family: montserrat, sans-serif;
 	font-weight: 600;
 }
+
+.kort_undertitle1{
+	top: 250px;
+	position: absolute;
+	font-size: 1.1rem;
+	font-family: montserrat, sans-serif;
+	font-weight: 600;
+}
+
 .mmdKunde_overskrift{
 	font-size: 2.3rem;
 	font-family: montserrat, sans-serif;
@@ -184,7 +203,7 @@ option:hover {
 }
 
 .tag1{
-	top: 265px;
+	top: 255px;
 	position: absolute;
 	background: #FFFFFF;
 	border-radius: 500px;
@@ -193,6 +212,18 @@ option:hover {
 	font-weight: 800;
 	width: 110px;
 }
+
+.tag2{
+	top: 255px;
+	position: absolute;
+	background: #FFFFFF;
+	border-radius: 500px;
+	color: black;
+	font-size: .7rem;
+	font-weight: 800;
+	width: 110px;
+}
+
 
 .cirkle1{
 	font-size: .7rem;
@@ -459,4 +490,66 @@ input{
 		font-size: 1.2rem;
 	}
 
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+	.tag1{
+		top: 200px;
+		position: absolute;
+		background: #FFFFFF;
+		border-radius: 500px;
+		color: black;
+		font-size: .7rem;
+		font-weight: 800;
+		width: 110px;
+	}
+
+	.kort_title{
+		top: 200px;
+	}
+	.kort_undertitle{
+		top: 190px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.tag1{
+		top: 255px;
+		position: absolute;
+	}
+
+	.kort_title{
+		top: 260px;
+	}
+	.kort_undertitle{
+		top: 250px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.tag1{
+		top: 295px;
+		position: absolute;
+	}
+
+	.kort_title{
+		top: 300px;
+	}
+	.kort_undertitle{
+		top: 290px;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.tag1{
+		top: 205px;
+		position: absolute;
+	}
+
+	.kort_title{
+		top: 210px;
+	}
+	.kort_undertitle{
+		top: 200px;
+	}
 }

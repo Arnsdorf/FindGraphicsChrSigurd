@@ -94,7 +94,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
                     <?php
                     if(!empty($mmdkunde->mmdKundeVideo)){
                         ?>
-                        <video width="100%" height="30%" controls class="shadow kunde_video">
+                        <video width="100%" height="30%" controls poster="billeder/Thumbnail.png" class="shadow kunde_video">
                             <source class="" type="video/mp4" src="uploads/<?php echo $mmdkunde->mmdKundeVideo;?>">
                             Your browser does not support the video tag.
                         </video>
