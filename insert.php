@@ -91,15 +91,15 @@ if(!empty($_POST["data"])){
             <div class="menu-btn_burger toggle"></div>
         </div>
         <div class="nav-items d-none d-md-block">
-            <a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
+            <a class="p-2 text-decoration-none text-white" href="nyheder.html">NYHEDER</a>
             <a class="p-2 text-decoration-none text-white" href="insert.php">OPRET PROFIL</a>
         </div>
     </div>
 
     <div class="col-12 d-md-none">
         <div class="row text-center mx-auto nav nav-items">
-            <a class="col-12 p-5 text-white text-decoration-none" href="#" class="">NYHEDER</a>
-            <a class="col-12 pb-5 text-white text-decoration-none" href="#" class="">OPRET PROFIL</a>
+            <a class="col-12 p-5 text-white text-decoration-none" href="nyheder.html" class="">NYHEDER</a>
+            <a class="col-12 pb-5 text-white text-decoration-none" href="insert.php" class="">OPRET PROFIL</a>
         </div>
     </div>
 </header>
@@ -214,7 +214,49 @@ if(!empty($_POST["data"])){
 
 </form>
 
+<!----------Start på footer------------>
+<div class="footer container-fluid d-none d-md-block box-shadow justify-content-evenly">
+    <div class="row">
+        <div class="col-12 pt-5 text-center">
+            <a class="text-white text-decoration-none forside_underoverskrift" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="mt-5 mb-5 align-items-center">
+                <a class="mx-xl-5 mx-md-2 text-decoration-none footer-text text-white" href="tel:+4512345678"><i class="fas fa-phone"></i> +45 12 34 56 78</a>
+                <a class="mx-xl-5 mx-md-2 text-decoration-none footer-text text-white" href="mailto:findgraphics@mail.com"><i class="fas fa-envelope"></i> findgraphics@mail.com</a>
+                <a class="mx-xl-5 mx-md-2 text-decoration-none footer-text text-white" href="#"><i class="bi bi-house-fill"></i> Nykøbing F, Geovej 6</a>
+            </div>
+            <div class="mt-5 mb-5 align-items-center">
+                <a class="mx-xl-5 mx-md-2 text-white text-decoration-none footer-text fa fa-brands fa-instagram fa-2x" href="https://www.instagram.com" target="_blank"></a>
+                <a class="mx-xl-5 mx-md-2 text-white text-decoration-none footer-text fa fa-brands fa-linkedin fa-2x" href="https://www.linkedin.com" target="_blank"></a>
+                <a class="mx-xl-5 mx-md-2 text-white text-decoration-none footer-text fa fa-brands fa-facebook fa-2x" href="https://www.facebook.com" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</div>
 
+<div class="footer container-fluid d-md-none box-shadow">
+    <div class="row text-center justify-content-center">
+        <div class="d-flex flex-column">
+            <a class="text-white text-decoration-none mt-5 forside_overskrift" href="#top">Gå til toppen <i class="fas fa-arrow-up"></i></a>
+            <a class="text-decoration-none text-white mt-5 footer-text" href="tel:+4512345678"><i class="fas fa-phone"></i> +45 12 34 56 78</a>
+            <a class="text-decoration-none text-white mt-5 footer-text" href="mailto:findgraphics@mail.com"><i class="fas fa-envelope"></i> findgraphics@mail.com</a>
+            <a class="text-decoration-none text-white mt-5 footer-text" href="#"><i class="bi bi-house-fill"></i> Nykøbing F, Geovej 6</a>
+            <a class="text-white text-decoration-none mt-5 footer-text fa fa-brands fa-instagram fa-2x" href="https://www.instagram.com" target="_blank"></a>
+            <a class="text-white text-decoration-none mt-5 footer-text fa fa-brands fa-linkedin fa-2x" href="https://www.linkedin.com" target="_blank"></a>
+            <a class="text-white text-decoration-none mt-5 footer-text mb-5 fa fa-brands fa-facebook fa-2x" href="https://www.facebook.com" target="_blank"></a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid footer-small">
+    <div class="row">
+        <h1 class="text-center footer-text mt-3 mb-3">
+            COPYRIGHT FindGraphics
+        </h1>
+    </div>
+</div>
+<!----------Slut på footer------------>
 
 <script>
     const toggle = document.querySelector('.toggle');

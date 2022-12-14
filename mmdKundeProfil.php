@@ -62,15 +62,15 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
             <div class="menu-btn_burger toggle"></div>
         </div>
         <div class="nav-items d-none d-md-block">
-            <a class="p-2 text-decoration-none text-white" href="#">NYHEDER</a>
-            <a class="p-2 text-decoration-none text-white" href="insert.php">LOGIN</a>
+            <a class="p-2 text-decoration-none text-white" href="nyheder.html">NYHEDER</a>
+            <a class="p-2 text-decoration-none text-white" href="insert.php">OPRET PROFIL</a>
         </div>
     </div>
 
     <div class="col-12 d-md-none">
         <div class="row text-center mx-auto nav nav-items">
-            <a class="col-12 p-5 text-white text-decoration-none" href="#" class="">NYHEDER</a>
-            <a class="col-12 pb-5 text-white text-decoration-none" href="#" class="">LOGIN</a>
+            <a class="col-12 p-5 text-white text-decoration-none" href="nyheder.html" class="">NYHEDER</a>
+            <a class="col-12 pb-5 text-white text-decoration-none" href="insert.php" class="">OPRET PROFIL</a>
         </div>
     </div>
 </header>
