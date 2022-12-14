@@ -485,6 +485,28 @@ input{
 	font-family: Montserrat;
 	font-weight: bold;
 }
+//footer//
+.footer{
+	background-color: #1f2437;
+
+}
+.footer-small{
+	background-color: #111111;
+	height: 5vh;
+}
+.footer-text{
+	font-family: Montserrat;
+	color: #f8eaff;
+}
+.footer-link{
+	font-family: Montserrat;
+	color: #f8eaff;
+	font-size: 0.8rem;
+	text-decoration: none;
+}
+.social{
+	color: #f8eaff;
+}
 @media screen and (min-width: 768px){
 
 	.rubrik{
