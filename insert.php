@@ -84,7 +84,7 @@ if(!empty($_POST["data"])){
     <div class="d-flex justify-content-between align-items-center mx-4 ">
         <div class="logo pt-3 align-items-center pb-3">
             <a href="index.html" class="text-decoration-none text-white">
-                <p>Find Graphic</p>
+                <p>Find Graphics</p>
             </a>
         </div>
         <div class="col-3 d-md-none menu-btn d-flex justify-content-end">
@@ -207,11 +207,28 @@ if(!empty($_POST["data"])){
             </div>
         </div>
 
-        <div class="col-12 button d-flex mb-5 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <button class="submit_knap bg-transparent text-white border-0">Opret bruger</button>
+
+
+        <div class="col-md-12 p-5 pt-3">
+            <div class="form-group">
+                <h5 class="pt-3 forside_underoverskrift col-md-5 text-center text-white">Premium Pakker</h5>
+                <p class=" col-md-5 pt-5 pb-5 text-center text-white brød">Muligheden for at opgradere til brugen af flere tags er muligt
+                    gennem vores premium pakker! </p>
+                <img class="mt-1 image" src="billeder/premium%20light.png">
+                <img class="mt-1 image" src="billeder/premium%20mid.png">
+                <img class="mt-1 image" src="billeder/luksus.png">
+            </div>
         </div>
+
+        <div class="col-12 button d-flex mb-5 align-items-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <button class="form-control submit_knap bg-transparent text-white border-0">Opret bruger</button>
+        </div>
+
     </div>
-    <button class="form-control button border-0 text-white shadow" type="submit" id="btnSubmit">Ja tak</button>
+
+
+
+
 </form>
 
 
@@ -245,10 +262,8 @@ if(!empty($_POST["data"])){
                 </p>
             </div>
             <div class="modal-footer d-flex justify-content-center">
-                <div class="col-12 button d-flex mb-5 align-items-center justify-content-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <button class="submit_knap bg-transparent text-white border-0">Opret bruger</button>
-                </div>
                 <button type="button" class="button1 shadow" data-bs-dismiss="modal">Nej tak</button>
+                <button class="form-control button shadow border-0 text-white" type="submit" id="btnSubmit">Ja tak</button>
             </div>
         </div>
     </div>

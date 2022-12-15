@@ -43,6 +43,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/ede39c7ba1.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://use.typekit.net/ykt2zah.css">
@@ -55,7 +56,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
     <div class="d-flex justify-content-between align-items-center mx-4 ">
         <div class="logo pt-4 align-items-center pb-2">
             <a href="index.html" class="text-decoration-none text-white">
-                <p>Find Graphic</p>
+                <p>Find Graphics</p>
             </a>
         </div>
         <div class="col-3 d-md-none menu-btn d-flex justify-content-end">
@@ -165,9 +166,9 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
                             </a>
                         </div>
                     </div>
-                    <div class="button mx-auto text-center shadow d-flex justify-content-center align-items-center mb-3">
+                    <div class="button mx-auto mt-3 mb-5 text-center shadow d-flex justify-content-center align-items-center mb-3">
                         <a class="text-white text-decoration-none" href="index.html#Items">
-                            <h6 class="m-0">Tilbage</h6>
+                            <h6 class="m-0 btn-tekst">Tilbage</h6>
                         </a>
                     </div>
                 </div>
@@ -215,7 +216,7 @@ $mmdkunder = $db->sql("SELECT * FROM mmdkunde WHERE`mmdKundeId` = :mmdKundeId;",
 
 <div class="container-fluid footer-small">
     <div class="row">
-        <h1 class="text-center footer-text m-3">
+        <h1 class="text-center footer-text mt-3 mb-3">
             COPYRIGHT FindGraphics
         </h1>
     </div>
