@@ -43,7 +43,7 @@ if(!empty($_POST["data"])){
 
     echo "<body style='font-size: 2rem; background-color: #353758;'></body> 
         <h1 style='color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; padding: 50px;' id='echo_besked'>Tak fordi du valgte Find Graphics</h1> 
-        <a style='text-decoration: underline; color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; font-weight: bold;' href='index.html'> Gå tilbage</a>
+        <a style='text-decoration: underline; color: white; font-family: montserrat, sans-serif; display: flex; justify-content: center; font-weight: bold;' href='index.html'>Gå tilbage</a>
         ";
 
     exit;
@@ -62,8 +62,10 @@ if(!empty($_POST["data"])){
     <title>OPRET DIN PROFIL</title>
 
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="author" content="Sigurd, Tommy og Christian. Find Graphics 2022.">
+    <meta name="copyright" content="Sigurd, Tommy og Christian. Find Graphics 2022. All Rights Reserved.">
+    <meta name="description" content="Denne side kan hjælpe med finde en designer, så du kan få styr på dine design problemer">
+    <meta name="theme-color" content="#ffffff"/>
 
     <link rel="tab icon" href="billeder/Tab%20logo.png">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
@@ -98,8 +100,8 @@ if(!empty($_POST["data"])){
 
     <div class="col-12 d-md-none">
         <div class="row text-center mx-auto nav nav-items">
-            <a class="col-12 p-5 text-white text-decoration-none" href="nyheder.html" class="">NYHEDER</a>
-            <a class="col-12 pb-5 text-white text-decoration-none" href="insert.php" class="">OPRET PROFIL</a>
+            <a class="col-12 p-5 text-white text-decoration-none" href="nyheder.html">NYHEDER</a>
+            <a class="col-12 pb-5 text-white text-decoration-none" href="insert.php">OPRET PROFIL</a>
         </div>
     </div>
 </header>
@@ -214,21 +216,16 @@ if(!empty($_POST["data"])){
                 <h5 class="pt-3 forside_underoverskrift col-md-5 text-center text-white">Premium Pakker</h5>
                 <p class=" col-md-5 pt-5 pb-5 text-center text-white brød">Muligheden for at opgradere til brugen af flere tags er muligt
                     gennem vores premium pakker! </p>
-                <img class="mt-1 image" src="billeder/premium%20light.png">
-                <img class="mt-1 image" src="billeder/premium%20mid.png">
-                <img class="mt-1 image" src="billeder/luksus.png">
+                <img class="mt-1 image" alt="premium_light" src="billeder/premium%20light.png">
+                <img class="mt-1 image" alt="premium_sølv" src="billeder/premium%20mid.png">
+                <img class="mt-1 image" alt="premium_luksus" src="billeder/luksus.png">
             </div>
         </div>
 
         <div class="col-12 button d-flex mb-5 align-items-center" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             <button class="form-control submit_knap bg-transparent text-white border-0">Opret bruger</button>
         </div>
-
     </div>
-
-
-
-
 </form>
 
 
